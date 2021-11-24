@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+  .lhead{
+    background-color:#FFFFFF;
+    height:10%;
+    width:100%;
+    color:#9767A9;
+    position:fixed;
+  }
+  li{
+    display: inline;
+  }
+  input{
+    border-radius: 50px;
+  }
+  .dbackground{
+    background-image:url("Assets/Cabeludo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    height:100vh;
+  }
+  main{
+    background-color:#FFFFFF;
+  }
+  .boxtop{
+    background-color:#9767A9;
+    color:#FFFFFF;
+  }
+  footer{
+    background-color:#9767A9;
+  }
