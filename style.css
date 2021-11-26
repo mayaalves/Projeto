@@ -8,18 +8,96 @@
     position: fixed;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    width: 210vh;
+    height: 10vh;
+    z-index: 1;
   }
   .logo{
-    height: 50px;
-    width: 60px;
+    height: 45px;
+    width: 65px;
     display: flex;
     flex-direction: row;
   }
   ul{
+    color: #9767A9;
     display: flex;
     flex-direction: row;
     list-style: none;
   }
   input{
-    border-radius: 20%;
+    border-radius: 45%;
+    width: 30vh;
+    height: 5vh;
+  }
+  .icons{
+   width: 5vh;
+   height: 5vh;
+  }
+  .picbelo{
+    background-image: url(Assets/Cabeludo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 220vh;
+    height: 80vh;
+    z-index: 0;
+  }
+  main{
+    background-color: #fff;
+  }
+  .btop{
+    background-color: #9767A9;
+    color: #fff;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .box1{
+    background-color: #9767A9;
+    color: #fff;
+    width: 45vh;
+    height: 40vh;
+  }
+  .box2{
+    background-color: #9767A9;
+    color: #fff;
+    width: 45vh;
+    height: 40vh;
+  }
+  .box3{
+    background-color: #9767A9;
+    color: #fff;
+    width: 45vh;
+    height: 40vh;
+  }
+  .box4{
+    background-color: #9767A9;
+    color: #fff;
+    width: 45vh;
+    height: 40vh;
+  }
+  .box5{
+    background-color: #9767A9;
+    color: #fff;
+    width: 45vh;
+    height: 40vh;
+  }
+  .box6{
+    background-color: #9767A9;
+    color: #fff;
+    width: 45vh;
+    height: 40vh;
+  }
+  .box7{
+    background-color: #9767A9;
+    color: #fff;
+    width: 45vh;
+    height: 40vh;
+  }
+  footer{
+    background-color: #9767A9;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
   }
