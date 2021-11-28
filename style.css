@@ -52,6 +52,18 @@
    background-color: #9767A9;
    color: #fff;
    height: 40vh;
-   display: flex;
-   flex-direction: column;
  } 
+ .passos{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ .paragrafo1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Montserrat;
+  font-size: 3vh;
+ }
