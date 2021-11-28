@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@100;300&display=swap');
 *{
     margin:0;
     padding:0;
@@ -5,22 +6,25 @@
   }
   .tcabeça{
     background-color: #fff;
+    color: #9767A9;
+    font-family: Montserrat;
+    font-size: 12px;
     position: fixed;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
     width: 210vh;
-    height: 10vh;
+    height: 9vh;
     z-index: 1;
   }
   .logo{
-    height: 45px;
-    width: 65px;
-    display: flex;
-    flex-direction: row;
+    height: 30px;
+    width: 60px;
   }
   ul{
     color: #9767A9;
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     list-style: none;
