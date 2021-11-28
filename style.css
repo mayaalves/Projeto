@@ -43,33 +43,15 @@
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
+    color: #fff;
     width: 210vh;
     height: 80vh;
     z-index: 0;
   }
-  main{
-    background-color: #fff;
-  }
-  .btop{
-    background-color: #9767A9;
-    color: #fff;
-    height: 35vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .boximage{
-    width: 75vh;
-    height: 70vh;
-  }
-  .boxcolor{
-    background-color: #9767A9;
-    color: #fff;
-    width: 45vh;
-    height: 40vh;
-  }
-  footer{
-    background-color: #9767A9;
-    color: #fff;
-    display: flex;
-    flex-direction: row;
-  }
+ .boxtop{
+   background-color: #9767A9;
+   color: #fff;
+   height: 40vh;
+   display: flex;
+   flex-direction: column;
+ } 
