@@ -39,24 +39,21 @@
     cursor: pointer;
     
   }
-  .busca{
-    margin-left:;
-    z-index: 1;
-  }
   input{
-    background-image: url(Assents/busca.png);
-    color: #9767A9;
     border-radius: 10vh;
     border-color: #9767A9;
     width: 35vh;
     height: 4vh;
+    background-image: url('Assets/busca.png');
+    background-repeat: no-repeat;
+    background-position: left;
   }
   .icons{
    width: 2vh;
    height: 2vh;
   }
   .picbelo{
-    background-image: url(Assets/Cabeludo.png);
+    background-image: url('Assets/Cabeludo.png');
     background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
