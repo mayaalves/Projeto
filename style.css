@@ -109,13 +109,26 @@
    margin-left: 100vh;
    margin-bottom: 75vh;
  }
+ .fotoimpar{
+  width: 80vh;
+  height: 70vh;
+ }
+ .fotopar{
+  width: 80vh;
+  height: 70vh;
+ }
+ .maepar{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+ }
  .boximpar{
    background-color: #9767A9;
    color: #fff;
-   width: 70vh;
+   width: 60vh;
  }
  .boxpar{
    background-color: #9767A9;
    color: #fff;
-   width: 70vh;
+   width: 60vh;
  }
