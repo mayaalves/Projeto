@@ -20,8 +20,8 @@
     z-index: 9;
   }
   .logo{
-    height: 30px;
-    width: 60px;
+    height: 40px;
+    width: 80px;
   }
   ul{
     color: #9767A9;
@@ -53,6 +53,7 @@
   .icons{
    width: 5vh;
    height: 5vh;
+   margin: 1vh;
   }
   main{
     padding-top: 50px;
@@ -124,20 +125,36 @@
   width: 80vh;
   height: 70vh;
  }
+ .maeone{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 22vh;
+  margin-top: -10vh;
+  z-index: 2;
+ }
+ .box-para-one{
+  background-color: #9767A9;
+  color: #fff;
+  width: 60vh;
+  margin-left: 10vh;
+  margin-top: -15vh;
+  z-index: 5;
+ }
  .maeimpar{
    display: flex;
    flex-direction: column;
    align-items: flex-start;
-   margin-left: 25vh;
-   margin-top: -22vh;
+   margin-left: 22vh;
+   margin-top: -40vh;
    z-index: 2;
  }
  .maepar{
    display: flex;
    flex-direction: column;
    align-items: flex-end;
-   margin-right: 25vh;
-   margin-top: -22vh;
+   margin-right: 22vh;
+   margin-top: -40vh;
    z-index: 0;
  }
  .boximpar{
@@ -145,6 +162,7 @@
    color: #fff;
    width: 60vh;
    margin-left: 10vh;
+   margin-top: -15vh;
    z-index: 5;
  }
  .boxpar{
@@ -152,6 +170,7 @@
    color: #fff;
    width: 60vh;
    margin-right: 10vh;
+   margin-top: -15vh;
    z-index: 5;
  }
  .chamadageral{
@@ -169,4 +188,20 @@
    letter-spacing: 0px;
    opacity: 1;
    padding: 4vh;
+ }
+ .cachodesenho{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 40vh;
+   margin-top: -35vh;
+ }
+ .desenhocacho{
+   width: 50vh;
+ }
+ footer{
+   background-color: #9767A9;
+   color: #fff;
+   font-family: Montserrat;
+   font-size: 2vh;
+   height: 10vh;
  }
