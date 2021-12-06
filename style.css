@@ -196,8 +196,33 @@
    margin-top: -35vh;
  }
  .desenhocacho{
+   display: flex;
+   flex-wrap: wrap;
    width: 50vh;
  }
+ .boxfotos{
+  margin-top: 40vh;
+}
+.rei{
+  width: 50vh;
+  height: 80vh;
+}
+.beyonce{
+  width: 40vh;
+  height: 40vh;
+}
+.mbj{
+  width: 40vh;
+  height: 40vh;
+}
+.taraujo{
+  width: 40vh;
+  height: 40vh; 
+}
+.gmaria{
+  width: 50vh;
+  height: 40vh;
+}
  footer{
    background-color: #9767A9;
    color: #fff;
