@@ -196,32 +196,60 @@
    margin-top: -35vh;
  }
  .desenhocacho{
-   display: flex;
-   flex-wrap: wrap;
    width: 50vh;
  }
  .boxfotos{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   margin-top: 40vh;
 }
+.reig{
+  display: flex;
+  flex-direction: column;
+}
 .rei{
-  width: 50vh;
-  height: 80vh;
-}
-.beyonce{
-  width: 40vh;
-  height: 40vh;
-}
-.mbj{
-  width: 40vh;
-  height: 40vh;
-}
-.taraujo{
-  width: 40vh;
-  height: 40vh; 
+  width: 45vh;
+  height: 70vh;
 }
 .gmaria{
-  width: 50vh;
-  height: 40vh;
+  width: 45vh; 
+  height: 35vh;
+}
+.celebs{
+  display: flex;
+  flex-direction: column;
+}
+.beyonce{
+  width: 35vh;
+  height: 35vh;
+}
+.mbj{
+  width: 35vh;
+  height: 35vh;
+}
+.taraujo{
+  width: 35vh;
+  height: 35vh; 
+}
+.intercelebs{
+  display: flex;
+  flex-direction: column;
+}
+.gjones{
+  width: 35vh;
+  height: 70vh; 
+}
+.sdog{
+  width: 35vh;
+  height: 35vh;
+}
+.azul{
+  width: 40vh;
+}
+.bonitos{
+  display: flex;
+  flex-direction: column;
 }
  footer{
    background-color: #9767A9;
