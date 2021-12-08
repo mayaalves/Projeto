@@ -195,12 +195,16 @@
    margin-right: 40vh;
    margin-top: -35vh;
  }
+ .cachodesenho:hover{
+   transform: rotate(45deg);
+ }
  .desenhocacho{
    width: 50vh;
  }
  .boxfotos{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin-top: 40vh;
 }
@@ -208,15 +212,16 @@
   display: flex;
   flex-direction: column;
   padding: 1vh;
+  margin-left: 1vh;
 }
 .rei{
-  width: 45vh;
-  height: 70vh;
+  width: 42vh;
+  height: 65vh;
   margin-bottom: 2vh;
 }
 .gmaria{
-  width: 45vh; 
-  height: 35vh;
+  width: 42vh; 
+  height: 30vh;
 }
 .celebs{
   display: flex;
@@ -224,18 +229,18 @@
   padding: 1vh;
 }
 .beyonce{
-  width: 35vh;
-  height: 35vh;
-  margin-bottom: 1vh;
+  width: 26vh;
+  height: 31vh;
+  margin-bottom: 2vh;
 }
 .mbj{
-  width: 35vh;
-  height: 35vh;
-  margin-bottom: 1vh;
+  width: 26vh;
+  height: 31vh;
+  margin-bottom: 2vh;
 }
 .taraujo{
-  width: 35vh;
-  height: 35vh; 
+  width: 26vh;
+  height: 31vh; 
 }
 .intercelebs{
   display: flex;
@@ -243,17 +248,17 @@
   padding: 1vh;
 }
 .gjones{
-  width: 35vh;
-  height: 70vh;
+  width: 26vh;
+  height: 65vh;
   margin-bottom: 2vh;
 }
 .sdog{
-  width: 35vh;
-  height: 35vh;
+  width: 26vh;
+  height: 31vh;
 }
 .azul{
-  width: 50vh;
-  height: 110vh;
+  width: 42vh;
+  height: 100vh;
   padding: 1vh;
 }
 .bonitos{
@@ -262,13 +267,13 @@
   padding: 1vh;
 }
 .moça{
- width: 35vh;
- height: 35vh;
+ width: 26vh;
+ height: 31vh;
  margin-bottom: 2vh;
 }
 .carinho{
- width: 35vh;
- height: 70vh;
+ width: 26vh;
+ height: 65vh;
 }
  footer{
    background-color: #9767A9;
@@ -276,4 +281,13 @@
    font-family: Montserrat;
    font-size: 2vh;
    height: 10vh;
+   margin-top: 5vh;
+ }
+ .infofinal{
+   margin-left: 10vh;
+ }
+ .navfinal{
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 10vh;
  }
