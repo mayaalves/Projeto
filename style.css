@@ -23,21 +23,21 @@
     height: 40px;
     width: 80px;
   }
-  ul{
+  .ul-top{
     color: #9767A9;
     cursor: pointer;
     display: flex;
     flex-direction: row;
     list-style: none;
   }
-  li{
+  .top-list{
     padding-right: 2vh;
     text-decoration: none;
   }
-  li:hover{
+  .top-list:hover{
     font-weight: bold;
   }
-  a{
+  .anc-top{
     text-decoration: none;
     cursor: pointer; 
   }
@@ -280,14 +280,32 @@
    color: #fff;
    font-family: Montserrat;
    font-size: 2vh;
-   height: 10vh;
+   height: 15vh;
    margin-top: 5vh;
  }
- .infofinal{
-   margin-left: 10vh;
+ .box-foot{
+   display: flex;
+   flex-direction: row;
  }
  .navfinal{
-   display: flex;
-   justify-content: flex-end;
-   margin-right: 10vh;
+   width: 40vh;
+   margin-left: 40vh;
  }
+ .footul{
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.foot-list{
+  padding-right: 2vh;
+  text-decoration: none;
+}
+.foot-list:hover{
+  font-weight: bold;
+}
+.anc-foot{
+  text-decoration: none;
+  cursor: pointer; 
+}
