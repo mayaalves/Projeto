@@ -70,30 +70,26 @@
   .box-da-box{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 90%;
     height: 80vh;
-    margin: auto;
   }
   h1{
     color: #fff;
     font-family: Playfair Display;
-    letter-spacing: 0px;
-    text-align: left;
     font-size: 9vh;
-    width: 50vh;
-    margin-right: 15vh;
-    margin-top: 20vh;
+    width: 48%;
+    margin-left: 30vh;
+    margin-top: 15vh;
   }
  .inicio{
    color: #fff;
    font-family: Montserrat;
    font-size: 4vh;
-   letter-spacing: -1.2px;
-   text-align: left;
-   width: 50vh;
-   margin-top: 20vh;
+   width: 48%;
+   margin-left: 47vh;
+   margin-top: 15vh;
  }
  .boxtop{
    background-color: #9767A9;
@@ -219,9 +215,15 @@
   height: 65vh;
   margin-bottom: 2vh;
 }
+.rei:hover{
+  transform: scale(1.1);
+}
 .gmaria{
   width: 42vh; 
   height: 30vh;
+}
+.gmaria:hover{
+  transform: scale(1.1);
 }
 .celebs{
   display: flex;
@@ -233,14 +235,23 @@
   height: 31vh;
   margin-bottom: 2vh;
 }
+.beyonce:hover{
+  transform: scale(1.1);
+}
 .mbj{
   width: 26vh;
   height: 31vh;
   margin-bottom: 2vh;
 }
+.mbj:hover{
+  transform: scale(1.1);
+}
 .taraujo{
   width: 26vh;
   height: 31vh; 
+}
+.taraujo:hover{
+  transform: scale(1.1);
 }
 .intercelebs{
   display: flex;
@@ -252,14 +263,23 @@
   height: 65vh;
   margin-bottom: 2vh;
 }
+.gjones:hover{
+  transform: scale(1.1);
+}
 .sdog{
   width: 26vh;
   height: 31vh;
+}
+.sdog:hover{
+  transform: scale(1.1);
 }
 .azul{
   width: 42vh;
   height: 100vh;
   padding: 1vh;
+}
+.azul:hover{
+  transform: scale(1.1);
 }
 .bonitos{
   display: flex;
@@ -271,9 +291,15 @@
  height: 31vh;
  margin-bottom: 2vh;
 }
+.moça:hover{
+  transform: scale(1.1);
+}
 .carinho{
  width: 26vh;
  height: 65vh;
+}
+.carinho:hover{
+  transform: scale(1.1);
 }
  footer{
    background-color: #9767A9;
@@ -326,16 +352,66 @@
   height: 4vh;
 }
 @media only screen and (max-width: 425px) {
-  .top-nav {display: none;}
   .tcabeça{display: flex;
   align-items: center;
   justify-content: center;}
+
+  .top-nav {display: none;}
+
   input {display: none;}
+
   .icons{display: none;}
+
   .box-da-box{display: flex;
-  flex-direction: column;}
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;}
+
   .boxtop{display: flex;
-  flex-direction: column;}
-  main{display: flex;
-  flex-direction: column;}
-}
+  flex-direction: column;
+  align-items: center;
+  height: 60vh;}
+
+  .passos{width: 80%;}
+
+  .paragrafo1{width: 80%;}
+  
+  .maeone{display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;}
+
+ .box-para-one{margin: auto;
+ width: 100%;
+ margin-top: -15vh;}
+
+ .maepar{display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;}
+  
+  .fotopar{
+  width: 80%;
+  height: 80%;
+  }
+
+  .boxpar{margin: auto;
+  width: 100%;
+  margin-top: -15vh;}
+
+  .maeimpar{display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;}
+    
+  .fotoimpar{
+  width: 80%;
+  height: 80%;
+  }
+
+  .boximpar{margin: auto;
+  width: 100%;
+  margin-top: -15vh;}
+
+  .foot-p{display: none;}
+  }
