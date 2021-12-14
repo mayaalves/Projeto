@@ -349,7 +349,7 @@
   width: 4vh;
   height: 4vh;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 425px) {
   .tcabeça{display: flex;
   align-items: center;
   justify-content: center;}
@@ -367,13 +367,13 @@
   }
 
   .box-h1{
-    margin-left: -25vh;
-    margin-top: -10vh;
+  margin-left: -25vh;
+  margin-top: -10vh;
   }
 
   .box-h2{
-    margin-left: -41vh;
-    margin-top: -12vh;
+  margin-left: -41vh;
+  margin-top: -12vh;
   }
 
   .boxtop{display: flex;
@@ -391,8 +391,8 @@
   margin: auto;}
 
  .box-para-one{margin: auto;
- width: 100%;
- margin-top: -15vh;}
+  width: 100%;
+  margin-top: -15vh;}
 
  .maepar{display: flex;
   flex-direction: column;
@@ -421,9 +421,16 @@
   margin-top: -15vh;}
 
   .cachodesenho{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  margin-top: 15%;
+  margin-bottom: -35vh;
+  }
+ 
+  .desenhocacho{
+  margin-right: -30vh;
+  }
+
+  .bonitos{
+    display: none;
   }
 
   .foot-p{display: none;}
